@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 82px;
+        width: 100%;
+        background-color: rgb(18, 18, 91);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(84, 84, 190);
+        font-size: 1.06rem;
+      }
+      .left {
+        font-size: 1.8rem;
+      }
+      .firstsection {
+        display: flex;
+        height: 300px;
+        justify-content: space-around;
+        margin: 79px 138px;
+      }
+      .firstsection div {
+        width: 526px;
+      }
+      .leftSection {
+        width: 34px;
+        font-size: 2.5rem;
+        align-items: center;
+      }
+      .rightSection {
+        width: 92%;
+        margin: -11px 0px;
+        height: 300px;
+      }
+      .rightSection img {
+        display: flex;
+        height: 347px;
+        width: 87%;
+        margin-left: 50px;
+      }
+      .purple {
+        color: rgb(208, 65, 208);
+      }
+
+      #element {
+        color: rgb(218, 43, 218);
+      }
+      .text-gray {
+        color: gray;
+      }
+      .secendSection {
+        max-width: 194vh;
+        display: flex;
+        height: 84vh;
+        margin: 0 97px;
+        flex-direction: column;
+      }
+      .secendSection .box {
+        background: white;
+        width: 73vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secendSection .vertical {
+        background-color: white;
+        height: 83px;
+        width: 1px;
+        margin: 0 118px;
+      }
+      .image-top {
+        width: 27px;
+        position: relative;
+        top: -44px;
+        left: -10px;
+      }
+      .vertical-title {
+        position: relative;
+        top: -25px;
+        width: 199px;
+        margin: 79px -54px;
+      }
+      .vertical-desc {
+        position: relative;
+        font-size: 9px;
+        color: gray;
+        width: 167px;
+      }
+      .secendSection h1 {
+        font-size: 1.7rem;
+      }
+      main hr {
+        border: 0px;
+        background-color: rgb(84, 84, 190);
+        height: 2.7px;
+        margin: 26px;
+      }
+      .footer {
+        display: flex;
+        background-color: rgb(18, 18, 46);
+        height: 263px;
+        padding: 2px 28px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: circle;
+      }
+      .footer h1 {
+        margin: 0 8px;
+      }
+      .footer h3 {
+        width: 118px;
+        margin: 9px 0;
+      }
+      .footer li {
+        width: 210px;
+      }
+      .footer hr {
+        border: 0px;
+        background-color: rgb(84, 84, 190);
+        height: 2.7px;
+        top: -25px;
+      }
+      footer .footer-rights {
+        text-align: center;
+        align-items: center;
+        margin: 30px 50px;
+        flex-direction: column;
+        display: flex;
+        font-size: 10px;
+      }
+      .img-bot {
+        display: flex;
+        border-style: border-box;
+        border-radius: 21px;
+        height: 38px;
+        width: 38px;
+        margin: 2px 66px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Devloper's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftSection">
+          Hi, my name is <span class="purple">Pragya</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="th-removebg-preview.png" />
+        </div>
+      </section>
+      <hr />
+      <section class="secendSection">
+        <span class="text-gray">What I have done</span>
+        <h1>Work experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="html.png.jpg" alt="" />
+            <div class="vertical-title">
+              HTML Developer (2023-2024)
+              <div class="vertical-desc">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Molestias non optio quam laborum molestiae corrupti eum. Neque
+                doloremque ea totam, distinctio nesciunt quas voluptate porro et
+                a, adipisci nam ab.
+              </div>
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="python-logo-png-open-2000.png" alt="" />
+            <div class="vertical-title">
+              Python Developer (2020-2022)
+              <div class="vertical-desc">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Molestias non optio quam laborum molestiae corrupti eum. Neque
+                doloremque ea totam, distinctio nesciunt quas voluptate porro et
+                a, adipisci nam ab.
+              </div>
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="th.jpg" alt="" />
+            <div class="vertical-title">
+              CSS Developer(2022-2023)
+              <div class="vertical-desc">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Molestias non optio quam laborum molestiae corrupti eum. Neque
+                doloremque ea totam, distinctio nesciunt quas voluptate porro et
+                a, adipisci nam ab.
+              </div>
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="js.png.jpg" alt="" />
+            <div class="vertical-title">
+              JavaScript Developer(2024)
+              <div class="vertical-desc">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Molestias non optio quam laborum molestiae corrupti eum. Neque
+                doloremque ea totam, distinctio nesciunt quas voluptate porro et
+                a, adipisci nam ab.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "I am a Web Developer",
+          "Graphic designer",
+          " Website Creator.",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h1>Projects</h1>
+        </div>
+        <div class="footer-secend">
+          <h3>Python projects</h3>
+          <ul>
+            <li>QR Code Generator</li>
+            <li>TestTyping speed</li>
+            <li>Hand-written assignment convertor</li>
+            <li>Face recognition</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <h3>HTML and CSS projects</h3>
+          <ul>
+            <li>Amazon clone making</li>
+            <li>Netflix clone</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <h3>Front end Projects</h3>
+          <ul>
+            <li>Portfolio Website</li>
+            <li>Calculator making</li>
+            <li>Landing page</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        <span>
+          <img class="img-bot" src="linkedin.png.jpg" alt="" />
+          pragyakatiyar@2002</span>
+
+        <span>
+          <img class="img-bot" src="insta.png.jpg" alt="" />
+          pragyakatiyar_1321</span>
+
+        <span>
+          <img class="img-bot" src="gmail.png.jpg" alt="" />
+          pragyakatiyar2002@gmail.com
+        </span>
+
+        <span>
+          www.developersportfolio.com || All Rights Reserved || 23Feb,2024
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>
